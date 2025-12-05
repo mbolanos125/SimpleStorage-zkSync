@@ -5,12 +5,19 @@ SimpleStorage — zkSync Era Deployment & Security Review
 This repository documents my first end-to-end smart contract deployment and security assessment.
 The goal of this project was to demonstrate mastery of the full workflow required for modern smart contract engineering:
     •    Environment setup
+    
     •    L1 to L2 testnet bridging
+    
     •    Contract compilation
+    
     •    zkSync Era deployment
+    
     •    Interaction testing
+    
     •    Explorer verification
+    
     •    Security audit writing
+    
     •    Portfolio-grade documentation
 
 This is not intended for production use. The purpose is learning, documentation, and establishing professional workflow patterns.
