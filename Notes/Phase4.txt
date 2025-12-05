@@ -1,0 +1,41 @@
+Phase 4: Deploy to zkSync Era Sepolia
+Timestamp: Thursday December 4th 22:57 Eastern Time
+
+
+Actions Taken:
+    •    Opened zkSync Remix plugin.
+    •    Set Environment → Wallet.
+    •    Connected MetaMask (network: zkSync Era Sepolia Testnet).
+    •    Used plugin compiler: Compile SimpleStorage.sol.
+    •    Navigated to Deploy section.
+    •    Selected contract: SimpleStorage.
+    •    Executed Deploy.
+    •    Confirmed MetaMask transaction on zkSync Era Sepolia.
+    •    Deployment completed.
+    •    Plugin displayed deployed instance at contract address.
+    •    Deployment tx + verification shown in Remix terminal.
+
+
+On-Chain Data
+
+Contract Address:
+0x60bd10476Dd5D7BE84CA24E1eC80B686D72809f3
+
+Deployment Tx Hash:
+0x3fa582257027e2beab00d33abe6a92ffb17c5357dff5e984c6db7c8e66766022
+
+Explorer (tx):
+https://sepolia.explorer.zksync.io/tx/0x3fa582257027e2beab00d33abe6a92ffb17c5357dff5e984c6db7c8e66766022
+
+Explorer (contract):
+https://sepolia.explorer.zksync.io/address/0x60bd10476Dd5D7BE84CA24E1eC80B686D72809f3
+
+
+
+Notes
+    •    Deployment performed via zkSync plugin, not default Remix VM.
+    •    zksolc compiler used automatically by plugin.
+    •    MetaMask prompt confirmed correct L2 network.
+    •    Contract verified successfully by plugin during deployment.
+    •    Contract visible and indexed on zkSync Era Sepolia explorer.
+
