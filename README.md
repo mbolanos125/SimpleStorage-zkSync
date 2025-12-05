@@ -4,6 +4,7 @@ SimpleStorage — zkSync Era Deployment & Security Review
 
 This repository documents my first end-to-end smart contract deployment and security assessment.
 The goal of this project was to demonstrate mastery of the full workflow required for modern smart contract engineering:
+ 
     •    Environment setup
     
     •    L1 to L2 testnet bridging
@@ -29,6 +30,7 @@ This is not intended for production use. The purpose is learning, documentation,
 This project walks through the lifecycle of a simple storage contract deployed to zkSync Era Sepolia.
 
 Technologies and tools used:
+   
     •    Solidity 0.8.24
     
     •    Remix IDE + zkSync plugin
@@ -42,6 +44,7 @@ Technologies and tools used:
     •    Manual and static analysis tools (Remix analyzers)
 
 Key goals:
+  
     •    Understand L2 deployment flows
     
     •    Practice bridging and gas abstraction
@@ -59,6 +62,7 @@ Key goals:
 Contract: SimpleStorage.sol
 
 The contract implements:
+   
     •    uint256 myFavoriteNumber - a single stored value
     
     •    Person[] listOfPeople - an array of structs
@@ -66,6 +70,7 @@ The contract implements:
     •    mapping(string => uint256) nameToFavoriteNumber - associative lookup
 
 Public Functions
+   
     •    store(uint256) - updates myFavoriteNumber
     
     •    retrieve() - returns the stored value
@@ -102,6 +107,7 @@ Environment: Remix zkSync Plugin (Remote Devnet → Wallet Mode)
 **4. Bridging Workflow (zkSync Era)**
 
 A full L2 workflow was completed to support deployment:
+   
     1.    Bridged ETH from Ethereum Sepolia → zkSync Era Sepolia
     
     2.    Verified arrival of L2 funds on the zkSync explorer
@@ -120,11 +126,11 @@ Purpose: demonstrate understanding of L1 → L2 bridging and zkSync deployment f
 **5. Interaction Tests**
 
 Performed in Remix after deployment:
+  
     •    store(7) → transaction successful
    
     •    retrieve() → returned 7
-    
-    •    addPerson("Michael", 33) → mapping + array updated correctly
+
 
 Explorer traces confirm correct state writes.
 
@@ -137,6 +143,7 @@ All documentation screenshots (bridging, deployment, contract interaction, explo
 /screenshots/
 
 Filenames:
+   
     •    Adding-ZKSync-to-Metamask.png
     
     •    Bridging-Confirmation.png
@@ -161,6 +168,7 @@ The full audit report is located at:
 /audit/SimpleStorage-Audit.md
 
 Audit includes:
+   
     •    Executive summary
     
     •    Threat model
@@ -181,6 +189,7 @@ This repository is Phase 1 of my security portfolio.
 Upcoming additions:
 
 FundMe Contract
+  
     •    More complex storage
    
     •    Custom errors
@@ -190,18 +199,22 @@ FundMe Contract
     •    Withdraw patterns
 
 Foundry Testing (TDD)
+  
     •    Invariant tests
     
     •    Fuzzing
     
     •    Gas snapshots
+    
 
 Security Patterns
+   
     •    Reentrancy protection
     
     •    Access control
     
     •    Checks-Effects-Interactions pattern
+    
 
 DeFi Mini-Projects
     •    ERC20 implementation
@@ -210,7 +223,9 @@ DeFi Mini-Projects
     
     •    DVDeFi (Damn Vulnerable DeFi) challenges
 
+
 zkSync Smart Contract Series
+ 
     •    Paymaster examples
     
     •    Account abstraction
