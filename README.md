@@ -30,17 +30,26 @@ This project walks through the lifecycle of a simple storage contract deployed t
 
 Technologies and tools used:
     •    Solidity 0.8.24
+    
     •    Remix IDE + zkSync plugin
+    
     •    MetaMask
+    
     •    zkSync Era bridge
+    
     •    zkSync Sepolia explorer
+    
     •    Manual and static analysis tools (Remix analyzers)
 
 Key goals:
     •    Understand L2 deployment flows
+    
     •    Practice bridging and gas abstraction
+    
     •    Document complete testing steps
+    
     •    Produce a real-world audit report
+    
     •    Build a portfolio-ready repository
 
 
@@ -51,12 +60,16 @@ Contract: SimpleStorage.sol
 
 The contract implements:
     •    uint256 myFavoriteNumber - a single stored value
+    
     •    Person[] listOfPeople - an array of structs
+    
     •    mapping(string => uint256) nameToFavoriteNumber - associative lookup
 
 Public Functions
     •    store(uint256) - updates myFavoriteNumber
+    
     •    retrieve() - returns the stored value
+    
     •    addPerson(string,uint256) - appends to the array and updates the mapping
 
 Purpose: demonstrate basic state modification patterns and mapping usage.
@@ -90,10 +103,15 @@ Environment: Remix zkSync Plugin (Remote Devnet → Wallet Mode)
 
 A full L2 workflow was completed to support deployment:
     1.    Bridged ETH from Ethereum Sepolia → zkSync Era Sepolia
+    
     2.    Verified arrival of L2 funds on the zkSync explorer
+    
     3.    Connected MetaMask to zkSync Era Sepolia
+    
     4.    Used the Remix zkSync plugin to compile with zksolc
+    
     5.    Successfully deployed using zkSync plug in on Remix IDE
+
 
 Purpose: demonstrate understanding of L1 → L2 bridging and zkSync deployment flows.
 
@@ -103,7 +121,9 @@ Purpose: demonstrate understanding of L1 → L2 bridging and zkSync deployment f
 
 Performed in Remix after deployment:
     •    store(7) → transaction successful
+   
     •    retrieve() → returned 7
+    
     •    addPerson("Michael", 33) → mapping + array updated correctly
 
 Explorer traces confirm correct state writes.
@@ -116,14 +136,22 @@ All documentation screenshots (bridging, deployment, contract interaction, explo
 
 /screenshots/
 
-Recommended filenames:
-    •    bridge.png
-    •    deploy.png
-    •    interaction-store.png
-    •    interaction-retrieve.png
-    •    explorer-confirmation.png
-    •    zkSync-plugin.png
+Filenames:
+    •    Adding-ZKSync-to-Metamask.png
+    
+    •    Bridging-Confirmation.png
+    
+    •    Bridging-Transaction.png
+    
+    •    Etherscan-SepoliaETH-Transaction2.png
+    
+    •    Explorer-SimpleStorage.png
+    
+    •    Interaction-Test-Transaction.png
+    
+    •    Interaction-Testing.png
 
+    •    Sepolia-POW-Faucet-Transaction2.png 
 
 
 **7. Security Audit**
@@ -134,10 +162,15 @@ The full audit report is located at:
 
 Audit includes:
     •    Executive summary
+    
     •    Threat model
+    
     •    Findings 
+    
     •    Recommendations
+    
     •    Methodology
+    
     •    Appendix with on-chain metadata
 
 
@@ -149,28 +182,39 @@ Upcoming additions:
 
 FundMe Contract
     •    More complex storage
+   
     •    Custom errors
+    
     •    Events
+    
     •    Withdraw patterns
 
 Foundry Testing (TDD)
     •    Invariant tests
+    
     •    Fuzzing
+    
     •    Gas snapshots
 
 Security Patterns
     •    Reentrancy protection
+    
     •    Access control
+    
     •    Checks-Effects-Interactions pattern
 
 DeFi Mini-Projects
     •    ERC20 implementation
+    
     •    Dex simulation
+    
     •    DVDeFi (Damn Vulnerable DeFi) challenges
 
 zkSync Smart Contract Series
     •    Paymaster examples
+    
     •    Account abstraction
+    
     •    L1 <-> L2 messaging
 
 This repo establishes the foundation and documentation style I will use across future Web3 security projects.
