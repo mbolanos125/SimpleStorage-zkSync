@@ -1,0 +1,32 @@
+Phase 3: Bridge Sepolia ETH → zkSync Era Sepolia
+Timestamp: Thursday December 4th 21:03 Eastern Time
+
+
+Summary of Actions:
+
+• Navigated to the official zkSync bridge interface:
+https://portal.zksync.io/bridge?network=sepolia
+• Selected Ethereum Sepolia Testnet as the L1 source network.
+• Selected ZKsync Era Sepolia as the L2 destination network.
+• Initiated a bridge transfer of 0.05 Sepolia ETH to fund the zkSync L2 deployment environment.
+• Confirmed the transaction in MetaMask and began monitoring the deposit status.
+
+Bridge Transaction Details:
+
+Amount Bridged: 0.05 Sepolia ETH
+L1 Transaction Hash: 0x6dbe7b018082c1a48dd5898912eca354457b4b2a3833044b91901a84e07f0214
+L2 Receipt Transaction Hash: 0x20a4c95004f85176cef8b7400b194f328f55962a64f0b1629567ed7db565045b
+
+
+Notes:
+
+• The zkSync bridge UI has changed since the Cyfrin Updraft tutorial was recorded.
+• zkSync has unified its interface so that “ZKsync Era” automatically refers to the correct Sepolia testnet environment, even if “Sepolia” is not explicitly shown in the dropdown label.
+• The bridge successfully initiated with expected testnet gas fees.
+• This step completes the funding requirements for deploying and interacting with the SimpleStorage smart contract on zkSync in Phase 4.
+
+Conclusion:
+
+L1 → L2 funding is complete.
+The zkSync deployment environment is now fully prepared for Phase 4 — deploying the SimpleStorage contract onto zkSync Era Sepolia and validating contract interactions.
+
