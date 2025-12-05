@@ -1,0 +1,18 @@
+Portfolio Piece #1 — SimpleStorage
+
+Phase 0: Environment Setup
+Timestamp: Thursday December 4th 2025 - 15:55 Eastern Time
+
+Summary of Actions:
+• Created main project folder (SimpleStorage-Portfolio)
+• Created subfolders: Drafts, Notes, Screenshots
+• Created Explorer-links document
+• Opened Remix IDE
+• Opened MetaMask browser extension
+• Opened Sepolia PoW faucet 
+• Opened zkSync Bridge
+• Opened Sepolia Etherscan explorer
+• Opened zkSync Sepolia explorer
+
+Notes:
+This document will serve as the reference log for the initial environment configuration.
