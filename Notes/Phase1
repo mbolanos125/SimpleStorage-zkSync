@@ -1,0 +1,37 @@
+Phase 1 — Acquire Sepolia ETH
+Timestamp: Thursday December 4th 2025 - 16:49 Eastern Time
+
+
+Summary of Actions
+
+• Attempted to obtain Sepolia ETH using the Infura faucet.
+• Infura required Linea Proof of Humanity verification, which did not register correctly even after successful verification on the Linea page.
+• Attempted the Alchemy faucet, but it required the wallet to hold mainnet ETH.
+• As both official faucets introduced blockers, pivoted to using the Sepolia PoW Faucet (pk910.de).
+• Successfully mined and claimed 0.0514 SepoliaETH and 0.0691, in two separate transactions, which is more than sufficient for bridging to zkSync and deploying the SimpleStorage contract.
+
+
+Faucet Used
+
+Sepolia PoW Faucet
+https://sepolia-faucet.pk910.de/
+
+This faucet uses a lightweight Proof-of-Work mechanism to ensure bot resistance and does not require mainnet ETH, logins, or identity verification.
+
+
+Transaction Details
+
+Amount Received: 0.0514 Sepolia ETH
+Transaction Hash: 0xf3de1bec6f53d30bfe6b03b6b32947db6423451e35efa64e285c1b4a28f38342
+
+Amount Received: 0.0691 Sepolia ETH
+Transaction Hash: 0x72f0245b67175aced435ea5437594a0cc46b1c606258e74f21a71d42ad79bdc5
+
+
+
+Notes
+
+• This step completes the funding required to bridge ETH from Sepolia (L1) to zkSync Sepolia (L2) in Phase 3.
+• No real ETH was used at any point.
+• The environment is now properly funded for the remainder of the project.
+
