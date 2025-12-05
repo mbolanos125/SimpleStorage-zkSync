@@ -1,0 +1,30 @@
+Phase 5: Interaction Tests
+Timestamp: Friday December 5th 00:06 Eastern Time
+
+Actions Taken
+    •    Opened zkSync Remix plugin → Interact panel.
+    •    Selected deployed instance: SimpleStorage @ 0x60bd074d765d57DF84C24AE1cC80B666D72809f3
+    •    Executed write function: store(7)
+    •    Confirmed transaction in MetaMask (zkSync Era Sepolia).
+    •    Executed read function: retrieve()
+    •    Verified return value = 7
+
+On-Chain Data
+
+(Fill these in from your explorer links — placeholders shown)
+
+store(7) transaction
+    •    Tx Hash: 0x34919759dc394c78519a4522ddb53a30fb893bef437cd1835a6641f2ab1e0a91
+    •    Status: Processed
+    •    Gas Used: 85140
+    •    Block: 6191507
+
+retrieve() call
+    •    Off-chain view function
+    •    Gas Used: 0 (view/read-only)
+
+Notes
+    •    Interaction performed on zkSync Era Sepolia, not Remix VM.
+    •    Successful write/read confirms the deployed contract is functional.
+    •    This phase validates L2 execution correctness and will be referenced in README.
+
