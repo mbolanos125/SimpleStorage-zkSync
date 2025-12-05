@@ -1,0 +1,19 @@
+Phase 2: Configure zkSync Sepolia in MetaMask
+Timestamp: Thursday December 4th 2025 - 19:40 Eastern Time
+
+Actions Taken:
+
+• Added zkSync Sepolia testnet to MetaMask using custom RPC configuration.
+• Verified network switch and successful configuration.
+
+Network Details Used:
+
+RPC URL: https://sepolia.era.zksync.dev
+Chain ID: 300
+Currency Symbol: ETH
+Block Explorer: https://sepolia.explorer.zksync.io
+
+Notes:
+
+This network configuration will allow deployment of the SimpleStorage smart contract to the zkSync L2 testnet in Phase 4.
+
