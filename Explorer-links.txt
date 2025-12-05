@@ -1,0 +1,66 @@
+========================================
+SimpleStorage On-Chain Explorer Links
+========================================
+
+Network
+------------
+zkSync Era Sepolia Testnet
+
+
+Contract Deployment
+-----------------------------
+Contract Address: 
+0x60bd10476Dd5D7BE84CA24E1eC80B686D72809f3
+
+Explorer Link:
+https://sepolia.explorer.zksync.io/address/0x60bd10476Dd5D7BE84CA24E1eC80B686D72809f3
+
+Deployment Tx: 
+0x3fa582257027e2beab00d33abe6a92ffb17c5357dff5e984c6db7c8e66766022
+
+
+Explorer Link:
+https://sepolia.explorer.zksync.io/tx/0x3fa582257027e2beab00d33abe6a92ffb17c5357dff5e984c6db7c8e66766022
+
+
+Bridge Transactions (L1 → L2)
+------------------------------------------
+L1 Bridge Tx (Ethereum Sepolia):
+Tx Hash:
+0x6dbe7b018082c1a48dd5898912eca354457b4b2a3833044b91901a84e07f0214
+
+Explorer Link:
+https://sepolia.etherscan.io/tx/0x6dbe7b018082c1a48dd5898912eca354457b4b2a3833044b91901a84e07f0214
+
+
+L2 Bridge Receipt (zkSync Era Sepolia):
+Tx Hash:
+0x20a4c95004f85176cef8b7400b194f328f55962a64f0b1629567ed7db565045b
+
+Explorer Link:
+https://sepolia.explorer.zksync.io/tx/0x20a4c95004f85176cef8b7400b194f328f55962a64f0b1629567ed7db565045b
+
+
+Interaction Transactions
+------------------------
+store(7):
+Tx Hash:
+0x34919759dc394c78519a4522ddb53a30fb893bef437cd1835a6641f2ab1e0a91
+
+Explorer Link:
+https://sepolia.explorer.zksync.io/tx/0x34919759dc394c78519a4522ddb53a30fb893bef437cd1835a6641f2ab1e0a91
+
+
+Metadata
+-------------
+Compiler Version:
+zkVM-0.8.24-1.0.2
+
+Zksolc Version:
+v1.5.6
+
+Deployer Address:
+0x94C26E48f80B781093AB3959f830eCe81DF88B8c
+
+Optimization:
+Yes, with mode 3
